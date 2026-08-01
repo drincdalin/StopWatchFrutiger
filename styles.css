@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+}
+
+html{
+    color-scheme: dark;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #EEEEF0;
+}
+
+#container{
+    background-color: hsla(235, 8%, 72%, 0.1);
+    border-radius: 24px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(255, 254, 254, 0.05) 0px 6px 24px 0px, rgba(253, 252, 252, 0.08) 0px 0px 0px 1px;
+
+}
+
+#display{
+    font-size: 6em;
+    text-shadow: hsla(0, 0%, 30%, 0.15) 0px 2.5px 2.6px;
+}
+
+#myH1{
+    font-size: 4em;
+}
+
+button{
+    background-color: hsla(235, 8%, 72%, 0.1);
+    font-size: 1.5em;
+    border: 0;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: hsla(0, 0%, 110%, 0.12) 0px -23px 25px 0px inset, hsla(0, 0%, 110%, 0.1) 0px -36px 30px 0px inset, hsla(0, 0%, 110%, 0) 0px -79px 40px 0px inset, hsla(0, 0%, 110%, 0.06) 0px 2px 1px, hsla(0, 0%, 0%, 0.05) 0px 4px 2px, rgba(0, 0, 0, 0.05) 0px 8px 4px, rgba(0, 0, 0, 0.01) 0px 16px 8px, rgba(0, 0, 0, 0.01) 0px 32px 16px;
+    transition: all 0.25s;
+}
+
+button:hover{
+    
+    box-shadow: hsla(0, 0%, 110%, 0.16) 0px -23px 25px 0px inset, hsla(0, 0%, 110%, 0.2) 0px -36px 30px 0px inset, hsla(0, 0%, 110%, 0) 0px -79px 40px 0px inset, hsla(0, 0%, 110%, 0.06) 0px 2px 1px, hsla(0, 0%, 0%, 0.06) 0px 4px 2px, rgba(0, 0, 0, 0.06) 0px 8px 4px, rgba(0, 0, 0, 0.02) 0px 16px 8px, rgba(0, 0, 0, 0.01) 0px 32px 16px;
+    background-color: hsla(235, 14%, 83%, 0.1) ;
+    color: #def5ff;
+}
+
+button:active{
+    
+    box-shadow: hsla(0, 0%, 110%, 0.12) 0px -23px 25px 0px inset, hsla(0, 0%, 110%, 0.1) 0px -36px 30px 0px inset, hsla(0, 0%, 110%, 0) 0px -79px 40px 0px inset, hsla(0, 0%, 110%, 0.06) 0px 2px 1px, hsla(0, 0%, 0%, 0.05) 0px 4px 2px, rgba(0, 0, 0, 0.05) 0px 8px 4px, rgba(0, 0, 0, 0.01) 0px 16px 8px, rgba(0, 0, 0, 0.01) 0px 32px 16px;
+}
+
+#startBtn:hover{
+    color: hsl(122, 100%, 94%);
+}
+
+#stopBtn:hover{
+    color: hsl(0, 100%, 94%);
+}
