@@ -76,7 +76,10 @@ button:active{
 
 @media screen and (max-width: 600px){
     #display{
-        font-size: 4em;
+        font-size: 3em;
         margin-bottom: 15px;
+    }
+    button{
+        font-size: 1.1em;
     }
 }
