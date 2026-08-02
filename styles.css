@@ -75,6 +75,12 @@ button:active{
 }
 
 @media screen and (max-width: 600px){
+    body {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    
     #container {
         width: 90%;
         max-width: 340px;
@@ -86,6 +92,8 @@ button:active{
         font-size: 3em;
         margin: 15px 0;
     }
+
+    
     button{
         font-size: 1.1em;
         padding: 12px 18px;
