@@ -1,6 +1,8 @@
 # StopWatch
 
-Acesta face parte din suita de proiecte oferite de tutorialul lui BroCode pe care il puteti vedea si voi<a src = "https://www.youtube.com/watch?v=lfmg-EJ8gm4&t=23378s">aici</a>.
+Acesta face parte din suita de proiecte oferite de tutorialul lui BroCode pe care il puteti vedea si voi [aici](https://www.youtube.com/watch?v=lfmg-EJ8gm4&t=23378s).
+<br>
+Live demo @ [stopwatch.drincdalin.online](stopwatch.drincdalin.online).
 <br>
 M-am chinuit enorm de mult cu UI-ul pentru a incerca ceva relativ nou (<b>Frutiger Aero</b>).
 
