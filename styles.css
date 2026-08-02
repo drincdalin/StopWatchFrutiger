@@ -73,3 +73,10 @@ button:active{
 #stopBtn:hover{
     color: hsl(0, 100%, 94%);
 }
+
+@media screen and (max-width: 600px){
+    #display{
+        font-size: 4em;
+        margin-bottom: 15px;
+    }
+}
